@@ -1,0 +1,21 @@
+{
+  "name": "poc-express",
+  "version": "1.0.0",
+  "description": "Prova de conceito com Express",
+  "main": "src/app/main.js",
+  "type": "module",
+  "scripts": {
+    "start": "node src/app/main.js",
+    "dev": "nodemon --experimental-modules --es-module-specifier-resolution=node -w src/"
+  },
+  "author": "Luciano Brito",
+  "license": "MIT",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^16.1.4",
+    "express": "^4.18.2"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.22"
+  }
+}
